@@ -4,7 +4,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 #print(os.path.dirname(os.path.abspath(__file__)))
-print(os.path.abspath(__file__))
+# print(os.path.abspath(__file__))
 
 SECRET_KEY = 'kj(k8g8bhtffqhy$4v@5893hz!da*vwjs7fx#-o51)=muguta4'
 DEBUG = True
@@ -84,7 +84,7 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-LANGUAGE_CODE = 'fa'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 USE_I18N = True
