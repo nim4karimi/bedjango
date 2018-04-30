@@ -8,6 +8,7 @@ from .models import Post
 class PostAdminModel(SummernoteModelAdmin):
     list_display = ['title']
     list_editable = ['mod_date']
+    list_filter = ['pub_date']
 
     summernote_fields = ('body')
     class Meta:
