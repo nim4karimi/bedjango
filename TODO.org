@@ -1,4 +1,1 @@
-*** TODO template Home
-** TODO Nav
-** Cards
-
+1 . Blog
