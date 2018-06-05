@@ -1,7 +1,8 @@
 from django.db import models
 
+
 class Post(models.Model):
-    title= models.CharField(max_length=100)
+    title = models.CharField(max_length=100)
     slug = models.SlugField(allow_unicode=True,unique=True)
     pic = models.ImageField(upload_to='posts/')
     body = models.TextField()
@@ -15,3 +16,4 @@ class Post(models.Model):
     # # __ Get Right Url ___
     # def get_absolute_url(self):
     #     return "/posts/%s/" % self.slug
+
