@@ -23,6 +23,9 @@ INSTALLED_APPS = [
     'weblog',
     # WYSGI Editor
     'django_summernote',
+
+    #Analitics
+    'analytical',
 ]
 
 
@@ -99,3 +102,6 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 # Media Files
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+
+GOOGLE_ANALYTICS_PROPERTY_ID = 'UA-120572769-1'

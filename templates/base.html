@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
-{% load static %}
+{% load static analytical %}
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -10,6 +10,10 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="{% static 'app/css/materialize.css' %}" type="text/css" rel="stylesheet" media="screen,projection" />
   <link href="{% static 'app/css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection" />
+
+
+  {% analytical_head_top %}
+  {% analytical_head_bottom %}
 </head>
 
 <body>
@@ -32,6 +36,11 @@
   <script src="{% static 'app/js/materialize.js' %}"></script>
   <script src="{% static 'app/js/init.js' %}"></script>
 {% endblock %}
+
+
+
+{% analytical_body_top %}
+{% analytical_body_bottom %}
 </body>
 
 </html>
